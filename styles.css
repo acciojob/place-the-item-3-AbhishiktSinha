@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+.holder{
+	width: 100vw;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	flex-wrap: wrap;
+	row-gap: 1vh;
+	column-gap: 1vh;
+
+	background-color: #181818;
+}
+.item{
+	box-sizing: border-box;
+	background-color: rgba(50, 100, 255, 0.09);
+	border: 5px solid darkslateblue;
+	border-radius: 4px;
+
+	width: 200px;
+	height: 200px;
+
+	text-align: center;
+	color: white;
+	font-weight: 800;
+
+	
+}
